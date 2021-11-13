@@ -1,0 +1,34 @@
+{
+  "name": "rehype-indexes",
+  "version": "0.0.12",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "build": "rimraf \"lib/**/*.d.ts\" && tsc && type-coverage"
+  },
+  "description": "header index library for rehype",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "type": "module",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingyeoking13/rehype-indexes.git"
+  },
+  "keywords": [],
+  "author": "ingyeoking13",
+  "bugs": {
+    "url": "https://github.com/ingyeoking13/rehype-indexes/issues"
+  },
+  "homepage": "https://github.com/ingyeoking13/rehype-indexes#readme",
+  "dependencies": {
+    "unist-util-visit": "^4.1.0"
+  }
+}
