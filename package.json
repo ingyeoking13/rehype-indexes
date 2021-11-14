@@ -1,6 +1,6 @@
 {
   "name": "rehype-indexes",
-  "version": "0.0.12",
+  "version": "0.0.20",
   "licenses": [
     {
       "type": "MIT",
@@ -14,7 +14,8 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "lib/"
   ],
   "type": "module",
   "types": "index.d.ts",
